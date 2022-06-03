@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cutie Anuradha</title>
+	<style type="text/css">
+		
+		.sideshow{
+			margin: 0 auto;
+			padding-top: 50px;
+			height: 700px;
+			background: skyblue;
+			box-sizing: border-box;
+		}
+		.content{
+			margin: auto;
+			width: 190px;
+			perspective: 1000px;
+			position: relative;
+			padding-top: 80px;
+		}
+		.content-carrousel{
+			width: 100%;
+			position: absolute;
+			float: right;
+			animation: sujeet 15s infinite linear;
+			transform-style: preserve-3d;
+
+		}
+		.content-carrousel:hover{
+			animation-play-state: paused;
+			cursor: pointer;
+		}
+		.content-carrousel figure{
+			width: 100%;
+			height: 120px;
+			border: 1px solid #4d444d;
+			position: absolute;
+			overflow: hidden; 
+			
+		}
+		.content-carrousel figure:nth-child(1){
+           transform: rotateY(0deg) translateZ(300px);
+		}
+		.content-carrousel figure:nth-child(2){
+           transform: rotateY(40deg) translateZ(300px);
+		}
+		.content-carrousel figure:nth-child(3){
+           transform: rotateY(80deg) translateZ(300px);
+		}
+		.content-carrousel figure:nth-child(4){
+           transform: rotateY(120deg) translateZ(300px);
+		}
+		.content-carrousel figure:nth-child(5){
+           transform: rotateY(160deg) translateZ(300px);
+		}
+		.content-carrousel figure:nth-child(6){
+           transform: rotateY(200deg) translateZ(300px);
+		}
+		.content-carrousel figure:nth-child(7){
+           transform: rotateY(240deg) translateZ(300px);
+		}
+		.content-carrousel figure:nth-child(8){
+           transform: rotateY(280deg) translateZ(300px);
+		}
+		.content-carrousel figure:nth-child(9){
+           transform: rotateY(320deg) translateZ(300px);
+		}
+		.shadow{
+			position: absolute;
+			box-shadow: 0px 0px 20px 0px #000;
+			border-radius: 2px;
+
+		}
+		.content-carrousel img{
+			image-rendering: auto;
+			transition: all 300ms;
+			width: 100%;
+			height: 100%;
+		}
+		.content-carrousel img:hover {
+           transform: scale(1.2);
+           transition: all 300ms;
+		}
+		@keyframes sujeet {
+			from{
+				transform: rotateY(0deg);
+			}
+			to{
+				transform: rotateY(360deg);
+			}
+		}
+	</style>
+</head>
+<body>
+<section class="sideshow">
+	<div class="content">
+		<div class="content-carrousel">
+			<figure class="shadow"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5lzo8EHasvrn0TBm8Ceu9X3Q44J_lGzy7u_3qFz6rrX82rl78Fxt6GyRugYFpYfKXr_GmdoTwvOXxbeKcelvXMcwUXxiz09w0NSfmJNelVMvpM1ssGrJp0qDNGJbEIJwPPbd2_bgjS2WPYrIzRaJUC6RncHWr8KmJ1mI23Cp-ox-RrzXSMLkpr0qW/s1280/8.jpeg"></figure>
+			<figure class="shadow"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLSFbLn6omZnLXd7G9Tx0Jqp4R8CMWzc-uX0pQ736xJVHiwkinEq4UZsmy-Bi8kaicfHCaRsGEElLg40rRAfxvxQrZQozTz4By7BxEFl2DwZP2QMwkMGO4VZAlMpyZF_hOfrWxaQXPPgLV06koeQhEtNXOVRdHCDFCKSWWzdzJjpAoYxhoxo87ojIl/s1536/2.jpeg"></figure>
+			<figure class="shadow"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVUO-kAL3QqepBDlLK0VEOkDG-P8Dd8Rjk8nGOaBYNoirWUGih1YrEuH9ZKUUMBgfHVg6X2G-uV-5CN_biR8e_or2dPA1kj1tMUxg1pi11HD1NWa4Brki5wqNp8LmcpeVpY-1MmBZeCljquTOgBSY0s8yMSBMO_9V-fh1IrHDMWfXOePrYNUvKS9Xs/s1280/10.jpeg"></figure>
+			<figure class="shadow"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKUm8u8ZxmPT-RalBLjZxxQc-7aCPcGYBm2LK5OLjHt6gCfft7z3PY_5yPXRdqOwI-Ygdhztg4aXGnJm5CGyYuJgqI2bbDzbjJ1oPBFbCYKJ11L6G2k1i-p9g7OnM7bGuFTCAWrJL4TBGzed_i_CWKjFrBDPbwJhn5fRcULf_59C8HOs9HsrKzXgXg/s1280/11.jpeg"></figure>
+			<figure class="shadow"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguzqRza5n98huZo_h4RR-yctKij2G0F9AbiMGHVABPwmSUF480TSL0oYxotLuXF9a4qxosZYfxVg3W325ZD1ySYD0BGDOZwLExrDl83wOq_cn_2OetnQwJFaSe7vXVicHkb4tAZXyyNzfhiAw9Syd36VLNMqQ2G58QAif42nHN03lfY0O4e10EJLEA/s960/1.jpeg"></figure>
+			<figure class="shadow"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxJObH9mR8PV4Cf0I0K9jtCsh0HtM295jMdrGiVpFYaFxbeANxBDocVyMz1PcHJGeXf3Dotr2zQXpiORUksh7FTz4GOM62sMXDRO8Cdl3gFHE0pndBUbl0eedUe-dmDCjW1is9QKH10xzyqERgaZjucdt-p9b2-TfmQcSq77BU8GYlKphk9tJR3vY5/s1200/12.jpeg"></figure>
+			<figure class="shadow"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOf9D4ccGSNVTESz_SI5EYA4Z9pVXNA45AouCj6zmdgzOApmhfCvMsRZic5jRkCjYinKFQkeZgJ3FUqlj7yyzSGxOV4trmpYldClOGavDDGw0ao3jdFaiP_lbusDy3682IMszV2pGJQWwNdit9Z0D-KQaMWpfGUkwuGC-FXrklzZzxdUhMgifj6UMI/s1280/3.jpeg"></figure>
+			<figure class="shadow"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7o-qZOslhCsyVIXCusrz63Xo3yjLFdSJUIfecR_n9-IfGnPeQblvTbRzbqnbFS0ds515hjR2fuNpMGpUAtOv9AQ80iRAnxKb-lnnZLf7D7LLJgkYB6wkRsdLw8vjWSXUJtyrT8rGveUdhbBZ_9X0y0d9jnTlU5csh-GElsxJ4Vv7ANUeCjG2yoU3C/s1280/4.jpeg"></figure>
+			<figure class="shadow"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhatYF_7sXY1s478TteYXYfLGkRmBhVHE06j5E0yzhJEd-pWTQ0lKIwHMn7P8Ph1zbPZ9SkLyf_VbUWvKftg9hhmsFIWCLy2g0KxFgcGM1lyBAkNcrXO5bVjaazpES3dHAGBeFXZ-jAnPAn_NFCzarOJcVUNWUqs6-28xah7OjRMK6XK-0wzUVQIUtX/s1280/6.jpeg"></figure>
+		</div>
+	</div>
+</section>
+</body>
+</html>
